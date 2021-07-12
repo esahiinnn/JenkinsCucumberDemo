@@ -1,0 +1,5 @@
+/Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/src/test/java/runners/TestRunner.java
+/Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/src/test/java/pages/GoogleHomePage.java
+/Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/src/test/java/utilities/Driver.java
+/Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/src/test/java/stepdefinitions/GoogleTitleStepDefs.java
+/Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/src/test/java/utilities/ConfigReader.java

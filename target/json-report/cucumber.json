@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T09:24:29.204Z",
+        "line": 3,
+        "name": "Test",
+        "description": "",
+        "id": "google-title-test;test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6309960000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User goes to google home page",
+            "match": {
+              "location": "stepdefinitions.GoogleTitleStepDefs.userGoesToGoogleHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118535000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User gets the title of the page",
+            "match": {
+              "location": "stepdefinitions.GoogleTitleStepDefs.userGetsTheTitleOfThePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2341000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User validates the title",
+            "match": {
+              "location": "stepdefinitions.GoogleTitleStepDefs.userValidatesTheTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googleTest"
+          }
+        ]
+      }
+    ],
+    "name": "Google Title Test",
+    "description": "",
+    "id": "google-title-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/google.feature",
+    "tags": [
+      {
+        "name": "@googleTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
