@@ -25,5 +25,6 @@ public class GoogleTitleStepDefs {
     @Then("User validates the title")
     public void userValidatesTheTitle() {
       Assert.assertEquals("Google", title);
+        System.out.println("Test PASSED");
     }
 }
