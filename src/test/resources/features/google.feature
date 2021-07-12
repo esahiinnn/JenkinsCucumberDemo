@@ -1,5 +1,6 @@
 @googleTest
 Feature: Google Title Test
+  @googleTest1
   Scenario: Test
     Given User goes to google home page
     And User gets the title of the page

@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = "stepdefinitions",
         dryRun = false,
-        tags = "@googleTest2"
+        tags = "@googleTest"
 )
 
 public class TestRunner {

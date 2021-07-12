@@ -36,7 +36,7 @@ public class GoogleTitleStepDefs {
 
     @Then("User validates the url" )
     public void userValidatesTheUrl() {
-        Assert.assertTrue(url.contains("google"));
+        Assert.assertTrue(url.contains("21123123"));
         System.out.println("URL Test PASSED");
     }
 }
