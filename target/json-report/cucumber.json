@@ -3,8 +3,8 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-13T16:45:21.019Z",
-        "line": 9,
+        "start_timestamp": "2021-07-13T20:25:06.454Z",
+        "line": 30,
         "name": "Test2",
         "description": "",
         "id": "google-title-test;test2",
@@ -13,10 +13,10 @@
         "steps": [
           {
             "result": {
-              "duration": 11106000000,
+              "duration": 6354000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 31,
             "name": "User goes to google home page",
             "match": {
               "location": "stepdefinitions.GoogleTitleStepDefs.userGoesToGoogleHomePage()"
@@ -25,10 +25,10 @@
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 134000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 32,
             "name": "User gets the url of the page",
             "match": {
               "location": "stepdefinitions.GoogleTitleStepDefs.userGetsTheUrlOfThePage()"
@@ -37,10 +37,10 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 33,
             "name": "User validates the url",
             "match": {
               "location": "stepdefinitions.GoogleTitleStepDefs.userValidatesTheUrl()"

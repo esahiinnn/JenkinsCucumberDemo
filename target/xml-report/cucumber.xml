@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="12.339">
-<testcase classname="Google Title Test" name="Test2" time="11.699">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.227">
+<testcase classname="Google Title Test" name="Test2" time="6.692">
 <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the url of the page...........................................passed
 Then User validates the url.................................................passed
