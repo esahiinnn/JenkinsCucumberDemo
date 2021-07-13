@@ -3,62 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-12T14:06:54.808Z",
-        "line": 4,
-        "name": "Test",
-        "description": "",
-        "id": "google-title-test;test",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6528595000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User goes to google home page",
-            "match": {
-              "location": "stepdefinitions.GoogleTitleStepDefs.userGoesToGoogleHomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 143746000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User gets the title of the page",
-            "match": {
-              "location": "stepdefinitions.GoogleTitleStepDefs.userGetsTheTitleOfThePage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2468000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "User validates the title",
-            "match": {
-              "location": "stepdefinitions.GoogleTitleStepDefs.userValidatesTheTitle()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@googleTest"
-          },
-          {
-            "name": "@googleTest1"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-12T14:07:01.519Z",
+        "start_timestamp": "2021-07-13T16:45:21.019Z",
         "line": 9,
         "name": "Test2",
         "description": "",
@@ -68,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2353425000,
+              "duration": 11106000000,
               "status": "passed"
             },
             "line": 10,
@@ -80,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 123940000,
+              "duration": 149000000,
               "status": "passed"
             },
             "line": 11,
@@ -92,9 +37,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat stepdefinitions.GoogleTitleStepDefs.userValidatesTheUrl(GoogleTitleStepDefs.java:39)\n\tat ✽.User validates the url(file:///Users/senolsahin/IdeaProjects/JenkinsCucumberDemo/./src/test/resources/features/google.feature:12)\n",
-              "duration": 1247000,
-              "status": "failed"
+              "duration": 4000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "User validates the url",
