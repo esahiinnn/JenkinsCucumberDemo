@@ -1,0 +1,8 @@
+stepdefinitions/GoogleTitleStepDefs.class
+utilities/Driver.class
+stepdefinitions/AmazonSeleniumGridStepDefs.class
+utilities/ConfigReader.class
+pages/GittiGidiyorHomePage.class
+runners/TestRunner.class
+pages/GoogleHomePage.class
+runners/FailedRuner.class

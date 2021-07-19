@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="27.612">
+    <testcase classname="Google Title Test" name="Test" time="6.406">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_2" time="14.108">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_3" time="0.954">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_4" time="0.801">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_5" time="0.926">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test2" time="1.055">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the url of the page...........................................passed
+Then User validates the url.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test" time="0.827">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_2" time="0.669">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_3" time="0.878">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Title Test" name="Test_4" time="0.72">
+        <system-out><![CDATA[Given User goes to google home page.........................................passed
+And User gets the title of the page.........................................passed
+Then User validates the title...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
