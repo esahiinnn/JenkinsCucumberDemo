@@ -53,7 +53,7 @@ public class AmazonSeleniumGridStepDefs {
     }
 
 
-    @Given("Kullanici Amazon anasayfaya Selenium Grid Chrome kullanarak giderF")
+    @Given("Kullanici Amazon anasayfaya Selenium Grid Chrome kullanarak gider")
     public void kullaniciAmazonAnasayfayaSeleniumGridChromeKullanarakGiderF() throws MalformedURLException {
         // 1. Adım DesiredCapabilities Class'ından bir object oluşturun
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -88,13 +88,13 @@ public class AmazonSeleniumGridStepDefs {
     }
 
     @Given("Kullanici Amazon ve Chrome browserindan computer araması yapar")
-    public void kullanici_amazon_ve_chrome_browserindan_computer_araması_yapar() throws InterruptedException {
+    public void kullaniciAmazonveChromeBrowserindanComputerAramasıYapar() throws InterruptedException {
         Thread.sleep(2000);
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
     }
 
-    @Given("Kullanici Amazon ve Firefox browserindan computer araması yaparF")
-    public void kullanici_amazon_ve_firefox_browserindan_computer_araması_yapar_f() throws InterruptedException {
+    @Given("Kullanici Amazon ve Firefox browserindan computer araması yapar")
+    public void kullaniciAmazonveFirefoxBrowserindanComputerAramasıYapar() throws InterruptedException {
         Thread.sleep(2000);
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
     }
