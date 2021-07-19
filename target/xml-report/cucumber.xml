@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="27.612">
-    <testcase classname="Google Title Test" name="Test" time="6.406">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="0.268">
+    <testcase classname="Google Title Test" name="Test" time="0.012">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_2" time="14.108">
+    <testcase classname="Google Title Test" name="Test_2" time="0.001">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_3" time="0.954">
+    <testcase classname="Google Title Test" name="Test_3" time="0.006">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_4" time="0.801">
+    <testcase classname="Google Title Test" name="Test_4" time="0.001">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_5" time="0.926">
+    <testcase classname="Google Title Test" name="Test_5" time="0.001">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test2" time="1.055">
+    <testcase classname="Google Title Test" name="Test2" time="0.004">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the url of the page...........................................passed
 Then User validates the url.................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test" time="0.827">
+    <testcase classname="Google Title Test" name="Test" time="0">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_2" time="0.669">
+    <testcase classname="Google Title Test" name="Test_2" time="0.001">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_3" time="0.878">
+    <testcase classname="Google Title Test" name="Test_3" time="0">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Google Title Test" name="Test_4" time="0.72">
+    <testcase classname="Google Title Test" name="Test_4" time="0">
         <system-out><![CDATA[Given User goes to google home page.........................................passed
 And User gets the title of the page.........................................passed
 Then User validates the title...............................................passed

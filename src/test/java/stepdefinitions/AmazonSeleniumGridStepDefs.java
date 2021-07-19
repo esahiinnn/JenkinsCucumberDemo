@@ -46,10 +46,6 @@ public class AmazonSeleniumGridStepDefs {
         driver.get("http://amazon.com");
     }
 
-    @And("Kullanici Amazondan computer araması yapar")
-    public void kullaniciAmazondanComputerAramasıYapar() {
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
-    }
 
     @And("Kullanici ilk urune tiklar")
     public void kullaniciIlkUruneTiklar() {
@@ -84,15 +80,23 @@ public class AmazonSeleniumGridStepDefs {
 
     }
 
-    @Given("Kullanici Amazondan computer araması yaparF")
-    public void kullaniciAmazondanComputerAramasıYaparF() throws InterruptedException {
-        Thread.sleep(2000);
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
-    }
 
     @Given("Kullanici ilk urune tiklarF")
     public void kullaniciIlkUruneTiklarF() throws InterruptedException {
         Thread.sleep(2000);
         driver.findElement(By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']")).click();
     }
+
+    @Given("Kullanici Amazon ve Chrome browserindan computer araması yapar")
+    public void kullanici_amazon_ve_chrome_browserindan_computer_araması_yapar() throws InterruptedException {
+        Thread.sleep(2000);
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
+    }
+
+    @Given("Kullanici Amazon ve Firefox browserindan computer araması yaparF")
+    public void kullanici_amazon_ve_firefox_browserindan_computer_araması_yapar_f() throws InterruptedException {
+        Thread.sleep(2000);
+        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
+    }
 }
+
