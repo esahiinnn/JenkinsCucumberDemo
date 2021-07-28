@@ -53,8 +53,8 @@ public class AmazonSeleniumGridStepDefs {
     }
 
 
-    @Given("Kullanici Amazon anasayfaya Selenium Grid Chrome kullanarak gider")
-    public void kullaniciAmazonAnasayfayaSeleniumGridChromeKullanarakGiderF() throws MalformedURLException {
+    @Given("Kullanici Amazon anasayfaya Selenium Grid Firefox kullanarak gider")
+    public void kullaniciAmazonAnasayfayaSeleniumGridFirefoxKullanarakGiderF() throws MalformedURLException {
         // 1. Adım DesiredCapabilities Class'ından bir object oluşturun
         DesiredCapabilities cap = new DesiredCapabilities();
 
@@ -98,5 +98,7 @@ public class AmazonSeleniumGridStepDefs {
         Thread.sleep(2000);
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Computer" + Keys.ENTER);
     }
+
+
 }
 

@@ -6,7 +6,7 @@ Feature: Selenium Grid Execution
     * Kullanici ilk urune tiklar
 
     Scenario: Amazon test on Firefox
-    * Kullanici Amazon anasayfaya Selenium Grid Chrome kullanarak gider
+    * Kullanici Amazon anasayfaya Selenium Grid Firefox kullanarak gider
     * Kullanici Amazon ve Firefox browserindan computer araması yapar
     * Kullanici ilk urune tiklarF
 
